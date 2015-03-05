@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+	<head>
+		<title>Simple javascript calculator by mhshohel</title>
+	</head>
+
+	<body>
+		<form name="cal">
+		<table>
+			<tr>
+				<td colspan="4"><input type="text" name="screen" size="20" /></td>
+			</tr>
+			<tr>
+				<td><button type="button" name="one" value="1" onclick="document.cal.screen.value += 1 " >1</button></td>
+				<td><button type="button" name="two" value="2" onclick="document.cal.screen.value += 2 " >2</button></td>
+				<td><button type="button" name="three" value="3" onclick="document.cal.screen.value += 3 ">3</button></td>
+				<td><button type="button" name="addition" value="+" onclick="document.cal.screen.value += '+' ">+</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" name="four" value="4" onclick="document.cal.screen.value += 4 ">4</button></td>
+				<td><button type="button" name="five" value="5" onclick="document.cal.screen.value += 5 ">5</button></td>
+				<td><button type="button" name="six" value="6" onclick="document.cal.screen.value += 6 ">6</button></td>
+				<td><button type="button" name="subtraction" value="-" onclick="document.cal.screen.value += '-'">-</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" name="seven" value="7" onclick="document.cal.screen.value += 7 ">7</button></td>
+				<td><button type="button" name="eight" value="8" onclick="document.cal.screen.value += 8 ">8</button></td>
+				<td><button type="button" name="nine" value="9" onclick="document.cal.screen.value += 9 ">9</button></td>
+				<td><button type="button" name="multiplication" value="*" onclick="document.cal.screen.value += '*' ">*</button></td>
+			</tr>
+			<tr>
+				<td><button type="button" name="clear" value="" onclick="document.cal.screen.value = '' " >C</button></td>
+				<td><button type="button" name="ziro" value="0" onclick="document.cal.screen.value += 0 ">0</button></td>
+				<td><button type="button" name="equal" value="" onclick="document.cal.screen.value = eval(document.cal.screen.value) ">=</button></td>
+				<td><button type="button" name="division" value="/" onclick="document.cal.screen.value += '/' ">/</button></td>
+			</tr>	
+		</table>
+	
+		</form>
+	
+	
+	</body>
+
+</html>
